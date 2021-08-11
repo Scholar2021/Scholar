@@ -3,6 +3,7 @@
 }
 
 .headBar {
+    background: radial-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fff3bb, #d5b5ff);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -19,13 +20,13 @@
 
 .logoImagePassive {
     transition: all .5s ease-in-out; 
-    width: 55vw;
+    width: 60bw;
 }
 
 .logoImageActive {
     animation-name: fade;
     animation-duration: 2.7s;
-    width: 40vw;
+    width: 45vw;
 }
 
 .logoImagePassive:hover {
@@ -90,6 +91,6 @@
   }
 
 @keyframes fade {
-    from {width: 57vw}
-    to {width: 40vw}
+    from {width: 66vw}
+    to {width: 45bw}
 }
