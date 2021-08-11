@@ -3,7 +3,6 @@
 }
 
 .headBar {
-    
     position: absolute;
     left: 0px;
     top: 0px;
@@ -16,18 +15,17 @@
     position: relative;
     top: 10vh;
     align-items: center;
-    background-color: black;
 }
 
 .logoImagePassive {
     transition: all .5s ease-in-out; 
-    width: 100%;
+    width: 55vw;
 }
 
 .logoImageActive {
     animation-name: fade;
     animation-duration: 2.7s;
-    width: 45vw;
+    width: 40vw;
 }
 
 .logoImagePassive:hover {
@@ -92,6 +90,6 @@
   }
 
 @keyframes fade {
-    from {width: 66vw}
-    to {width: 45vw}
+    from {width: 57vw}
+    to {width: 40vw}
 }
