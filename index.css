@@ -20,7 +20,7 @@
 
 .logoImagePassive {
     transition: all .5s ease-in-out; 
-    width: 60bw;
+    width: 60vw;
 }
 
 .logoImageActive {
@@ -92,5 +92,5 @@
 
 @keyframes fade {
     from {width: 66vw}
-    to {width: 45bw}
+    to {width: 45vw}
 }
