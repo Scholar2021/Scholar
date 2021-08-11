@@ -94,3 +94,18 @@
     from {width: 66vw}
     to {width: 45vw}
 }
+
+@keyframes fade-mobile {
+    from {width: 99vw}
+    to {width: 70vw}
+}
+
+@media (max-width: 800px) {
+  .logoImagePassive {
+      width: 90vw;
+  }
+  .logoImageActive {
+      animation-name: fade-mobile;
+      width: 70vw;
+  }
+}
