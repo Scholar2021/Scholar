@@ -20,13 +20,13 @@
 
 .logoImagePassive {
     transition: all .5s ease-in-out; 
-    width: 55vw;
+    width: 60vw;
 }
 
 .logoImageActive {
     animation-name: fade;
     animation-duration: 2.7s;
-    width: 40vw;
+    width: 45vw;
 }
 
 .logoImagePassive:hover {
@@ -91,6 +91,6 @@
   }
 
 @keyframes fade {
-    from {width: 57vw}
-    to {width: 40vw}
+    from {width: 66vw}
+    to {width: 45vw}
 }
