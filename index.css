@@ -20,7 +20,7 @@
 
 .logoImagePassive {
     transition: all .5s ease-in-out; 
-    width: 60vw;
+    width: 100%;
 }
 
 .logoImageActive {
