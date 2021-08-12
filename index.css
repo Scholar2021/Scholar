@@ -151,14 +151,23 @@ a {
 
 .activeFbIco {
     top: 32vh;
+    font-size:2vw;
+    position:absolute;
+    left:.6vw
 }
 
 .activeInstaIco {
     top: 37.5vh;
+    font-size:2vw;
+    position:absolute;
+    left:.17vw
 }
 
 .activeLocationIco {
     top: 43vh;
+    font-size:2vw;
+    position:absolute;
+    left: .18vw;
 }
 
 .animate__animated.animate__fadeInUp {
@@ -188,15 +197,15 @@ a {
         width: 90vw;
     }
     .activeTextBar{
-        top: 27vh;
+        top: 43vh;
         left: 40vw;
     }
     #timer {
-        top: 33vh;
+        top: 50vh;
     }
     .timerCells {
         font-weight: bold;
-        font-size: 6vw;
+        font-size: vw;
     }
     .cellNames {
         font-size: 3vw;
@@ -229,5 +238,34 @@ a {
     #secondsName {
         top: 4vh;
         left: 64.8vw;
+    }
+    #infoBar{
+        height: 48vh;
+        left: 10vw;
+    }
+    .activeLine {
+        left: 1.5vw;
+        width: .5vw;
+    }
+    .activeFirstLine {
+        height: 20vh;
+    }
+    .activeFbIco {
+        top: 22vh;
+        left: .4vw;
+        font-size: 4vw;
+    }
+    .activeInstaIco {
+        top: 25vh;
+        left: .1vw;
+        font-size: 4vw;
+    }
+    .activeLocationIco {
+        top: 28.2vh;
+        left: .63vw;
+        font-size: 4vw;
+    }
+    .activeSecondLine {
+        top: 32vh;
     }
 }
