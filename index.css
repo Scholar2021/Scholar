@@ -199,6 +199,7 @@ a {
     .activeTextBar{
         top: 43vh;
         left: 40vw;
+        content: "Նոր արկածները մոտ են...";
     }
     #timer {
         top: 50vh;
