@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 }, 200);
             }, 1500);
         }, 1500);
-    }, 1000);
+    }, 2000);
 
     //Timer
     const deadline = '2021-09-15';
