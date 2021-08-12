@@ -121,28 +121,28 @@
 }
 
 @keyframes fade-mobile {
-    from {width: 90vw}
-    to {width: 70vw}
+    from {width: 100vw}
+    to {width: 90vw}
 }
 
 @media (max-width: 500px) {
 
     #logoImage {
-        top: 2.5vh;
+        top: 6vh;
     }
     .logoImagePassive {
-        width: 90vw;
+        width: 100vw;
     }
     .logoImageActive {
         animation-name: fade-mobile;
-        width: 70vw;
+        width: 90vw;
     }
     .activeTextBar{
-        top: 19.5vh;
-        left: 40.4vw;
+        top: 27vh;
+        left: 40vw;
     }
     #timer {
-        top: 28vh;
+        top: 33vh;
     }
     .timerCells {
         font-weight: bold;
@@ -156,13 +156,13 @@
         left: 32vw;
     }
     #hours {
-        left: 42vw;
+        left: 43vw;
     }
     #minutes {
-        left: 52vw;
+        left: 54vw;
     }
     #seconds {
-        left: 62vw;
+        left: 64vw;
     }
     #daysName {
         top: 4vh;
@@ -170,14 +170,14 @@
     }
     #hoursName {
         top: 4vh;
-        left: 42.1vw;
+        left: 42.6vw;
     }
     #minutesName {
         top: 4vh;
-        left: 51.5vw;
+        left: 53vw;
     }
     #secondsName {
         top: 4vh;
-        left: 62.7vw;
+        left: 64.8vw;
     }
 }
