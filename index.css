@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration-style: none;
-    text-decoration-line: none;
-}
-
 #headBar {
     background: radial-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #d5b5ff);
     position: absolute;
