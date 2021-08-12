@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
 #headBar {
     background: radial-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #d5b5ff);
     position: absolute;
@@ -155,14 +160,14 @@
     top: 37.5vh;
     font-size:2vw;
     position:absolute;
-    left:.17vw
+    left:.35vw
 }
 
 .activeLocationIco {
     top: 43vh;
     font-size:2vw;
     position:absolute;
-    left: .18vw;
+    left: .6vw;
 }
 
 .animate__animated.animate__fadeInUp {
